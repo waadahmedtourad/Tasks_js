@@ -1,23 +1,15 @@
 
-var Num = prompt("Enter Your Number");
+//let Num = prompt("Enter Your Number");
 //Task1 
 /*if(Num % 2 == 0){
-    console.log("Even");
+    console.log("The Number is Even");
 }
 else{
-    console.log("Odd");
+    console.log("The Number is Odd");
 }*/
 
 
-
-//Task2
-/*const pi = Math.PI;
-var Area = pi * Num  * Num ;
-var Circumference = 2 * pi * Num  ;
-console.log("The Area is = " + Area);  
-console.log("The Circumference is = " + Circumference); 
-*/
-// or 
+//Task2 
 /*const pi = Math.PI;
 var Area = pi * Math.pow(Num , 2) ;
 var Circumference = 2 * pi * Num  ;
@@ -26,16 +18,16 @@ console.log("The Circumference is = " + Circumference);
 */
 
 //Task3
-/*var sum = 0;
-var Num1 = prompt("Enter Your firstNumber");
-var Num2 = prompt("Enter Your secondNumber");
+
+/*let Num1 = prompt("Enter Your firstNumber");
+let Num2 = prompt("Enter Your secondNumber");
 Num1 = Number(Num1);
 Num2 = Number(Num2);
-sum = Num1 + Num2 ;
-console.log("The sum is = " + sum); */
-
+let sum = Num1 + Num2 ;
+console.log("The sum is = " + sum); 
+*/
 //Task4
-/*var Num = prompt("Enter Your Number");
+/*let Num = prompt("Enter Your Number");
 if (Num > 0){
     console.log("Positive");
 }
@@ -47,18 +39,18 @@ else{
 }*/
 
 //Task5
-/*var Array= ['Welcome'];
-var Words = Array[0];
-var reverseWords = '';
+/*let Array= ['Welcome'];
+let Words = Array[0];
+let reverseWords = '';
 for (let i = Words.length-1;i >= 0 ; i--){
     reverseWords = reverseWords + Words[i];
 }
 Array[0]=reverseWords;
 console.log(reverseWords);
 */
-/*var arr = ['Welcome'];
-var Words = arr[0];
-var reverseWords = Words.split('').reverse().join('');
+/*let arr = ['Welcome'];
+let Words = arr[0];
+let reverseWords = Words.split('').reverse().join('');
 arr = [reverseWords];
 console.log(arr);
 */
